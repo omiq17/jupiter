@@ -1262,6 +1262,10 @@ font-size: 1.15em;
 			margin-top: 10px;
 		}
 
+		/* icons */
+		.lj-icon-box span {
+			font-size: 1.5em;
+		}
 	}
 
 	@media (max-width: 767px) {
@@ -1296,10 +1300,6 @@ font-size: 1.15em;
 			margin-bottom: 0;
 		}
 
-		.lj-icon-box span {
-			font-size: 3em;
-		}
-
 		.lj-icon-box h3 {
 			font-size: 1.3em;
 		}
@@ -1313,6 +1313,10 @@ font-size: 1.15em;
 			font-size: 1em;
 		}
 
+		/* icons */		
+		.lj-icon-box span {
+			font-size: 1em;
+		}
 		/* 8. PRODUCT */
 
 		.product {
