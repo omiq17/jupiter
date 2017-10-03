@@ -1,0 +1,562 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48253024-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-48253024-2');
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>SixJupiter - Stock Screener for Small and Microcap Investors</title>
+  
+    <!-- bootstrap files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/textrotate.js"></script>
+
+
+    <script src="https://use.fontawesome.com/f6feeb8b12.js"></script>
+
+
+  </head>
+
+  <body onload="changeText()">
+
+  <!-- PRELOADER -->
+  <div class="lj-preloader"></div>
+  <!-- /PRELOADER -->
+
+  <!-- TOP BAR -->
+  <div class="menu module">
+    <div class="container">
+      <div class="row wow fadeIn">
+
+        <!-- LOGO -->
+        <div class="col-xs-4 lj-logo">
+          <a href="#" title="">
+            <img src="img/jupiter.png" class="lj-logo-1x" alt="">
+            <img src="img/jupiter.png" class="lj-logo-2x" alt="">
+          </a>
+        </div>
+        <!-- /LOGO -->
+
+        <!-- MENU DESKTOP -->
+        <div class="col-xs-8 lj-menu">
+          <ul>
+            <li><a href="#demo" class="slide">Demo</a></li>
+            <li><a href="#services" class="slide">Features & Pricing</a></li>
+            <li><a href="#signup" class="slide">Sign Up</a></li>
+            <li><a href="https://www.sixjupiter.com/#/login">Log In</a></li> 
+            <li><a href="https://medium.com/@sixjupiter" target="_blank">Research Blog</a></li>
+            <li><a href="#contact" class="slide">Contact</a></li>
+         </ul>
+        </div>
+        <!-- /MENU DESKTOP -->
+
+        <!-- MENU BUTTON -->
+        <div class="col-xs-8 lj-menu-button"><a href="#"><i class="icon ion-navicon-round"></i></a></div>
+        <!-- /MENU BUTTON -->
+
+      </div>
+
+      <!-- MENU MOBILE -->
+      <div class="row">
+          <div class="lj-menu-mobile">
+            <nav>
+              <div class="col-xs-4 lj-text-left"><a href="#demo" class="slide">Demo</a></div>
+              <div class="col-xs-4 lj-text-center"><a href="#services" class="slide">Features & Pricing</a></div>
+              <div class="col-xs-4 lj-text-center"><a href="#signup" class="slide">Sign Up</a></div>
+              <div class="col-xs-4 lj-text-left"><a href="https://www.sixjupiter.com/#/login">Log In</a></div>
+              <div class="col-xs-4 lj-text-center"><a href="https://medium.com/@sixjupiter" target="_blank">Research Blog</a></div>
+              <div class="col-xs-4 lj-text-center"><a contactclass="slide">Contact</a></div>
+            </nav>
+          </div>
+      </div>
+      <!-- /MENU MOBILE -->
+
+    </div>
+  </div>
+  <!-- /TOP BAR -->
+
+  <!-- HEADER -->
+  <header>
+
+    <!-- HEADER OVERLAY --> 
+    <div class="lj-overlay lj-overlay-color"></div>
+    <!-- /HEADER OVERLAY -->
+    
+    <div class="container">
+      
+        <!-- TITLE -->
+          <div class="row wow fadeInUp" data-wow-delay="0.5s">
+            <div class="col-xs-12 lj-title">
+              <h1 class="lj-text-center"><span>SixJupiter</span></h1>
+            </div>
+          </div>
+        <!-- /TITLE -->
+        
+
+        <!-- TITLE PARAGRAPH -->
+          <div class="row wow fadeInUp" data-wow-delay="0.9s">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 lj-title-paragraph">
+              <p class="lj-text-center">The screener for small and micro cap investors.</p>
+            </div>
+          </div>
+        <!-- /TITLE PARAGRAPH -->
+
+
+       <!-- LINE -->
+          <div class="row wow fadeIn" data-wow-delay="1.3s">
+            <div class="col-xs-12 lj-line">
+              <div></div>
+            </div>
+          </div>
+        <!-- /LINE -->
+
+
+
+        <!-- TITLE BUTTONS -->
+        <div class="row wow fadeInUp" data-wow-delay="1.2s">
+          <div class="col-sm-12 lj-title-buttons">40+ factors based on studies of what drives big gains. Includes:
+          <div id="change"></div>
+          </div>
+
+        <div class="lj-pb2">
+          <a href="https://www.sixjupiter.com/payment/" class="lj-button-full">Subscribe now for $24.99 per month</a>
+        </div>
+
+
+        </div>
+        <!-- /TITLE BUTTONS -->
+        
+        <!-- SCROLL DOWN -->
+        <div class="row wow fadeIn" data-wow-delay="1.5s">
+          <div class="col-sm-12 lj-scroll-down">
+            <button type="button"><i class="icon ion-chevron-down"></i></button>
+          </div>
+        </div>
+        <!-- /SCROLL DOWN -->
+
+    </div>    
+
+  </header>
+  <!-- /HEADER -->
+
+  <!-- Demo MODULE-->
+  <div id="demo" class="icons module">
+    <div class="container">
+<h2>INSERT DEMO APPLICATION HERE</h2>
+The screener below is a replica of our screener for SixJupiter subscribers -- the only difference is that the data set is outdated and not updated daily, as is the case with the screener for subscribers. 
+<a href="#" class="glink">Click here to become a SixJupiter subscriber and access our live screener with data refreshed daily</a>. 
+
+    </div>
+
+ 
+
+  </div>
+  <!-- /DEMO MODULE -->
+
+
+
+  <!-- SERVICES MODULE-->
+  <div id="services" class="icons module">
+    <div class="container">
+
+<!-- LINE -->
+<hr />
+        <!-- /LINE -->
+
+<h2>Features</h2>
+
+Below is a list of the features our application lets subscribers filter upon. Click on the icon next to each feature name for an in-depth definition. 
+
+      <!-- COLUMNS -->
+      <div class="row wow fadeInUp" data-wow-delay="0.5s">
+
+        <div class="col-sm-4 lj-icon-box">
+          <h3 class="lj-text-uppercase">Balance Sheet, Income, Price  &nbsp;&nbsp; <span><i class="fa fa-balance-scale" aria-hidden="true"></i></span></h3>
+    
+          <ul>
+            <li>Current Ratio &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="The ratio of current assets to current liabilities, as reported on most recently filed balance sheet."></i>
+            </li>
+            <li>Debt/Equity Ratio&nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="The ratio of total debt to total shareholders' equity as reported on most recently filed balance sheet. "></i>
+            </li>
+            <li>Market Capitalization&nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true"  data-toggle="tooltip" data-placement="right" title="The market capitalization of the company as of the close of trading yesterday."></i>
+            </li>
+            <li>Dividend Yield&nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true"  data-toggle="tooltip" data-placement="right" title="The current dividends per share divided by the market capitalization as of the close of the last trading day. "></i>
+            </li>
+            <li>Price in Strong Uptrend&nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true"  data-toggle="tooltip" data-placement="right" title=" If the price's 5 day simple moving average (SMA) is above the 20 day SMA, which in turn is above the 50 day SMA, which in turn is above the 200 day SMA, it is stated to have a strong uptrend. "></i>
+            </li>
+            <li>Volume in Strong Uptrend&nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true"  data-toggle="tooltip" data-placement="right" title=" If the volume's 5 day simple moving average (SMA) is above the 20 day SMA, which in turn is above the 50 day SMA, which in turn is above the 200 day SMA, it is stated to have a strong uptrend. "></i>
+            </li>
+          </ul>
+                
+        </div>
+        
+        <div class="col-sm-4 lj-icon-box">
+          <h3 class="lj-text-uppercase">Price Ratios &nbsp;&nbsp; <span class="fi"><i class="fa fa-thermometer-half" aria-hidden="true"></i></span></h3>
+          <ul>
+              <li>EV/EBITDA &nbsp;&nbsp;
+                <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Enterprise value divided by earnings before income tax, depreciation, and amortization"></i>
+              </li>
+              <li>Price/Net Operating Earnings &nbsp;&nbsp;
+                <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Market capitalization as of market close of the preceding day, divided by all after tax income from ongoing operations available to shareholders with controlling interests. "></i>
+              </li>
+              <li>Price/Sales &nbsp;&nbsp;
+                <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Market capitalization based on yesterday's closing share price divided by trailing twelve months of revenue. "></i>
+              </li>
+              <li>Price/Book &nbsp;&nbsp;
+                <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Market capitalization based on yesterday's closing share price divided by book value reported on most recently filed balance sheet. "></i>
+              </li>
+              <li>Price/Earnings &nbsp;&nbsp;
+                <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Price per share as of market close of the preceding day divided by all after tax income available to shareholders with controlling interests per outstanding share. "></i>
+              </li>
+              <li>Price/FCF &nbsp;&nbsp;
+                <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Market capitalization as of the previous trading day's close divided by the trailing twelve months of free cash flow. "></i>
+              </li>
+              <li>Value Composite One &nbsp;&nbsp;
+                <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="To calculate the VC1 ranking, stocks are assigned a percentile ranking from 1:100 to each of the following valuation ratios:
+
+              Price to Book, 
+
+              Price to Sales
+
+              , EV/EBITDA
+
+              , Price to Free Cash Flow, 
+
+              and Price to Net Earnings. 
+
+              These ranks were then summed for each company, and the entire set of companies was then re-scaled from 1:100. The lower the score, the better the company's aggregated value metrics are. "></i>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4 lj-icon-box">
+          <h3 class="lj-text-uppercase">Profit & Efficiency Measures &nbsp;&nbsp; <span><i class="fa fa-money" aria-hidden="true"></i></span></h3>
+          
+          <ul>
+            <li>Gross Margin &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>ROIC &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>ROE &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>ROA &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>ROE Less Intangibles &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>ROA Less Intangibles &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <!-- COLUMNS -->
+      <div class="row wow fadeInUp" data-wow-delay="0.5s">
+        <div class="col-sm-4 lj-icon-box">         
+          <h3 class="lj-text-uppercase">Glassdoor and Twitter Metrics <span>&nbsp;&nbsp;<i class="fa fa-smile-o" aria-hidden="true"></i></span></h3>
+          <ul>
+            <li>Number of Glassdoor Reviews &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Glassdoor Culture Rating &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Glassdoor Senior Leadership Rating &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Glassdoor CEO Rating &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Glassdoor Compensation Rating &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Glassdoor CEO Approval Percent &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Twitter Sentiment Rank &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-4 lj-icon-box">
+          <h3 class="lj-text-uppercase">Ownership & Board &nbsp;&nbsp;<span><i class="fa fa-users" aria-hidden="true"></i></span></h3>
+          <ul>
+            <li>Percent of Shares Held by Institutional Investors &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Percent of Shares Held by Management and Board Investors &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Size of Board &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Percent of Board that is Management &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Percent of Board that is Female &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Is CEO Also Chairman of Board? &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Percent of Cash Expenses Going to CEO Compensation &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+        </ul>
+      </div>
+        
+        <div class="col-sm-4 lj-icon-box">
+          <h3 class="lj-text-uppercase">Growth and Revenue &nbsp;&nbsp; <span><i class="fa fa-bar-chart" aria-hidden="true"></i></span></h3>
+          <ul>
+            <li>Revenue YoY Change &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Net Cash Flow From Operations YoY Change &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Revenue Growth Less CapEx Growth &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+            <li>Capital Turnover &nbsp;&nbsp;
+              <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="test"></i>
+            </li>
+          </ul>
+        </div>
+
+Finding valuable features to screen on is vital to predicting future returns. We're constantly on the hunt for data features our customers want and ones that we believe
+will have predictive value. 
+
+      </div>
+      <!-- /COLUMNS -->
+
+    </div>
+  </div>
+  <!-- /SERVICES MODULE -->
+
+
+
+  <!-- SIGN UP MODULE -->
+  <div id="signup" class="product module">
+    <div class="container">
+      <div class="row">
+ 
+        <!-- PRODUCT DESRIPTION -->
+        <div class="col-sm-push-6 product-column">
+
+          <!-- PRODUCT TITLE -->
+          <div class="row wow fadeInUp" data-wow-delay="0.5s">
+            <div class="col-sm-12 lj-product-title">
+              <h2>Become a <span>subscriber</span></h2>
+            </div>
+          </div>
+          <!-- /PRODUCT TITLE -->
+
+
+          <!-- PRODUCT ICONS -->
+          <div class="row wow fadeInUp" data-wow-delay="0.5s">
+            <div class="col-sm-6 lj-product-icon-box">
+              <span><i class="fa fa-usd"></i></span>
+              <h3 class="lj-text-uppercase">$24.99 per month</h3>
+              <p>Unbeatable pricing coupled with unique screening features.</p>
+            </div>
+
+            <div class="col-sm-6 lj-product-icon-box">
+              <span><i class="fa fa-check-circle-o"></i></span>
+              <h3 class="lj-text-uppercase">Money-back guarantee</h3>
+              <p>Cancel within 7 days to get your money back. </p>
+            </div>
+          </div>
+
+            <div class="col-sm-6 lj-product-icon-box">
+              <span><i class="fa fa-hand-peace-o"></i></span>
+              <h3 class="lj-text-uppercase">Cancel anytime</h3>
+              <p>After 7 days, subscription auto-renews at $24.99. Cancel anytime by emailing info@sixjupiter.com with a request to cancel. 
+Requests will be processed within 24 hours.</p>
+            </div>
+          </div>
+
+          <!-- /PRODUCT ICONS -->
+
+          <!-- PRODUCT BUTTON -->
+          <div class="row wow fadeInUp" data-wow-delay="0.5s">
+            <div class="col-sm-12 lj-product-button">
+              <a href="https://www.sixjupiter.com/#/payment" class="lj-button-open">Subscribe Now <span><i class="icon ion-forward"></i></span></a>
+            </div>
+          </div>
+          <!-- /PRODUCT BUTTON -->
+
+        </div>
+        <!-- /PRODUCT DESRIPTION -->
+
+
+
+      </div>
+    </div>
+  </div>
+  <!-- /SIGN UP MODULE -->
+
+  <!-- RESEARCH MODULE -->
+
+  <div class="purchase module">
+    <div class="container">
+<div class="col-sm-12 lj-product-title">
+              <h2>The <span>SixJupiter</span> Approach</h2>
+        <!-- PURCHASE TEXT -->
+        <div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-1 lj-purchase-text">
+
+          <ol><li>Make it easy for investors to utilize factors that historically have led to large gains.</li> <li>Help investors discover new factors that could give them an edge.</li></ol>
+        </div>
+        <!-- /PURCHASE TEXT -->
+
+        <!-- PURCHASE BUTTON -->
+        <div class="col-sm-3 lj-purchase-button">
+          <a href="https://medium.com/@sixjupiter" class="lj-button-full" target="_blank">Learn More</a>
+        </div>
+        <!-- /PURCHASE BUTTON -->
+
+      </div>
+    </div>
+  </div>
+
+  <!-- RESEARCH MODULE -->
+
+
+
+  <!-- CONTACT MODULE -->
+  <footer id="contact" class="module">
+    <div id="contact">
+    <div class="container">
+      <div class="row">
+
+        <!-- FOOTER LEFT -->
+        <div class="col-sm-6 lj-footer-left">
+
+          <!-- FOOTER TITLE -->
+          <h2 class="wow fadeInUp" data-wow-delay="0.5s">Contact <span>us</span>.</h2>
+          <!-- /FOOTER TITLE -->
+          
+          <!-- FOOTER PARAGRAPHS -->
+          <p class="lj-footer-leading wow fadeInUp" data-wow-delay="0.7s">We're eager to talk to traders and investors interested in our product.</p>
+          <p class="wow fadeInUp" data-wow-delay="0.5s">Feel free to contact us with questions or comments. </p>
+          <!-- /FOOTER PARAGRAPHS -->
+          
+          <!-- FOOTER ADDRESS -->
+          <div class="row wow fadeInUp" data-wow-delay="0.5s">
+            <address>
+              <div class="col-sm-6">
+                <ul>
+                  <li><i class="icon ion-location"></i>SixJupiter</li>
+                  <li>4482 Eagleridge Lane</li>
+                  <li>Zionsville, IN 46077</li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <ul>
+                  <li><i class="icon ion-android-call"></i><a href="tel:+18445831356">844-583-1356</a></li>
+
+            <li><i class="icon ion-android-mail"></i><a href="mailto:info@sixjupiter.com">info@sixjupiter.com</a></li>
+
+                </ul>
+              </div>
+            </address>
+          </div>
+          <!-- /FOOTER ADDRESS -->          
+          
+
+        </div>
+        <!-- /FOOTER LEFT -->
+        
+        <!-- FOOTER RIGHT -->
+        <div class="col-sm-6 lj-footer-right">
+
+          
+
+
+        </div>
+        <!-- /FOOTER RIGHT -->
+
+      </div>
+    </div>
+</div>
+  </footer>
+  <!-- /CONTACT MODULE -->
+  
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  
+  <!-- jQuery Easings -->
+  <script src="js/jquery.easing.1.3.js"></script>
+  <!-- Grids -->
+  <script src="js/grids.js"></script>
+  <!-- AjaxChimp -->
+  <script src="js/jquery.ajaxchimp.js"></script>
+  <!-- Owl Carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- Backstretch -->
+  <script src="js/jquery.backstretch.min.js"></script>
+  <!-- WOW.js -->
+  <script src="js/wow.min.js"></script>
+  <!-- Waypoints -->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <!-- Counterup -->
+  <script src="js/jquery.counterup.min.js"></script>
+  <!-- Device.js -->
+  <script src="js/device.min.js"></script>
+  <!-- jQuery Tweetie -->
+  <script src="js/tweetie.min.js"></script>
+  <!-- Elegant js scripts -->
+  <script src="js/lj-elegant.js"></script>  
+<!-- bootstrap js -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--Start of Zendesk Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="https://v2.zopim.com/?580FcModsTH94Kub6oWaP8spH1h8Qt6l";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zendesk Chat Script-->
+
+<!-- Tooltip -->
+<script>
+  $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+  });
+</script>
+
+  </body>
+</html>
