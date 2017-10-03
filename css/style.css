@@ -45,33 +45,32 @@
 
 /* 1A. ADDED */
 
-* { box-sizing:border-box; }
+	* { box-sizing:border-box; }
 
-#change {
-position: relative;
-font-size: 28px;
-color: #e8eaed;
-margin-top:15px;
-margin-bottom:15px;
-}
-
-.glink {
-				transition: all 0.125s ease-in-out 0s;
-		-moz-transition: all 0.125s ease-in-out 0s;
-		-webkit-transition: all 0.125s ease-in-out 0s;
-		-o-transition: all 0.125s ease-in-out 0s;
-		-ms-transition: all 0.125s ease-in-out 0s;
-color:#057E31;
-text-decoration:underline;
-font-weight:bold;
+	#change {
+		position: relative;
+		font-size: 28px;
+		color: #e8eaed;
+		margin-top:15px;
+		margin-bottom:15px;
 	}
 
-#demo, #services {margin-top:-100px;
-}
+	.glink {
+			transition: all 0.125s ease-in-out 0s;
+			-moz-transition: all 0.125s ease-in-out 0s;
+			-webkit-transition: all 0.125s ease-in-out 0s;
+			-o-transition: all 0.125s ease-in-out 0s;
+			-ms-transition: all 0.125s ease-in-out 0s;
+			color:#057E31;
+			text-decoration:underline;
+			font-weight:bold;
+		}
 
-hr {color:#0000;
-size:1.5em;
-}
+
+
+	hr {color:#0000;
+	size:1.5em;
+	}
 
 
 /* 2. BASIC STYLES */
@@ -182,9 +181,9 @@ size:1.5em;
 
 	.lj-text-center {
 		text-align: center;
-font-size:18px;
-font-weight:bold;
-padding-bottom:20px;
+		font-size:18px;
+		font-weight:bold;
+		padding-bottom:20px;
 	}
 
 	.lj-text-left {
@@ -459,7 +458,7 @@ padding-bottom:20px;
     	text-align: center;
     	margin-top: 30px;
     	margin-bottom: 15px;
-color: #ffffff;
+		color: #ffffff;
     }
 
     .lj-title-buttons a {
@@ -829,10 +828,11 @@ color: #ffffff;
 		background-color: #7dc771;
 	}
 
-	.purchase > .container {
+	.purchase > .container,
+	#contact > .container {
 		padding-top: 100px;
 		padding-bottom: 100px;
-color: #fff;
+		color: #fff;
 	}
 
 	.lj-purchase-text li {
@@ -840,8 +840,7 @@ color: #fff;
 		text-align: left;
 		margin-top: 0;
 		margin-bottom: 0;
-
-font-size: 1.15em;
+		font-size: 1.15em;
 	}
 
 	.lj-purchase-button {
@@ -885,9 +884,9 @@ font-size: 1.15em;
     }
 
 
-.lj-pb2 {
-		text-align: center;
-	}
+	.lj-pb2 {
+			text-align: center;
+		}
 
 	.lj-pb2 a {
 		display: inline-block;
@@ -1237,13 +1236,15 @@ font-size: 1.15em;
 	@media (max-width: 991px) {
 
 		/* 5. MENU */
-
 		.lj-menu {
 			display: none;
 		}
 
 		.lj-menu-button {
 			display: block;
+		}
+		.lj-title {
+			margin-top: 0px;
 		}
 
 	}
@@ -1280,9 +1281,11 @@ font-size: 1.15em;
 		.lj-scroll-down {
 			display: none;
 		}
+		#change {
+			font-size: 21px;
+		}
 
 		/* 7. SERVICES */
-
 		.icons .row {
 			padding-bottom: 50px;
 		}
