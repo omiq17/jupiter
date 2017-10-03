@@ -18,7 +18,7 @@
     <!-- bootstrap files -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <!-- Main CSS file -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -554,7 +554,19 @@
   <script>
     $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip();   
+      
+      // menu disappearng for zoom out
+        $(window).on('resize', function(){
+          var win = $(this); //this = window
+          // console.log(win.width());
+          if (win.width() > 978) { 
+            $(".lj-menu-mobile").removeClass("active");
+            $(".lj-menu-mobile>nav").css("display", "none");
+            }
+          });    
+
     });
+
   </script>
 
   </body>
